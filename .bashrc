@@ -11,6 +11,6 @@ alias train='poetry run python /home/steve/NMRcraft/scripts/training/train_metal
 
 # Fetch Script and welcome
 if [ $PWD = "/home/steve/NMRcraft" ]; then
-  fastfetch /root/fastfetch.jsonc
+  fastfetch --load-config /root/fastfetch.jsonc
   poetry run lolcat /root/welcome
 fi
