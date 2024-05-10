@@ -8,9 +8,11 @@ clear
 
 alias app='poetry run python /home/steve/NMRcraft/nmrcraft/app.py'
 alias train='poetry run python /home/steve/NMRcraft/scripts/training/train_metal.py'
+alias help='cat ../Archpy_dots/user_docs'
 
 # Fetch Script and welcome
 if [ $PWD = "/home/steve/NMRcraft" ]; then
   fastfetch --load-config /root/fastfetch.jsonc
   poetry run lolcat /root/welcome
+  cat welcome2
 fi
