@@ -14,5 +14,6 @@ alias help='cat ../Archpy_dots/user_docs'
 if [ $PWD = "/home/steve/NMRcraft" ]; then
   fastfetch --load-config /root/fastfetch.jsonc
   poetry run lolcat /root/welcome
-  cat welcome2
+  cat ../Archpy_dots/welcome2
+  echo "====================================================="
 fi
