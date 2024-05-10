@@ -15,5 +15,5 @@ clear
 # Beauty stuff
 if [ $PWD = "/home/steve/NMRcraft" ]; then
   poetry run archey
-  poetry run lolcat welcome
+  poetry run lolcat /root/welcome
 fi
