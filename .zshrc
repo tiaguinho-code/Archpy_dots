@@ -11,8 +11,10 @@ alias vim='nvim'
 export EDITOR='nvim'
 alias cl='clear'
 alias q='exit'
+alias 'poetry kjell'='poetry shell'
+alias ps='poetry shell'
 clear 
 # Beauty stuff
-if [ $PWD = "/NMRcraft" ]; then
+if [ $PWD = "/home/steve/NMRcraft" ]; then
   neofetch
 fi
