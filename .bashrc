@@ -16,5 +16,4 @@ if [ $PWD = "/home/steve/NMRcraft" ]; then
   fastfetch --load-config /root/fastfetch.jsonc
   poetry run lolcat /root/welcome
   cat ../Archpy_dots/welcome2
-  echo "====================================================="
 fi
