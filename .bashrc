@@ -6,7 +6,7 @@ alias q='exit'
 poetry shell
 clear 
 
-alias 'poetry kjell'='poetry shell'
+alias 'poetry_kjell'='poetry shell'
 alias app='poetry run python /home/steve/NMRcraft/nmrcraft/app.py'
 alias train='poetry run python /home/steve/NMRcraft/scripts/training/train_metal.py'
 alias help='cat ../Archpy_dots/user_docs'
