@@ -16,5 +16,7 @@ alias ps='poetry shell'
 clear 
 # Beauty stuff
 if [ $PWD = "/home/steve/NMRcraft" ]; then
-  neofetch
+  fastfetch --load-config /root/fastfetch.jsonc
+  poetry run lolcat /root/welcome
+  cat ../Archpy_dots/welcome2
 fi
