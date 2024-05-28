@@ -20,7 +20,7 @@ alias ps='poetry shell'
 alias app='poetry run python /home/steve/NMRcraft/nmrcraft/app.py'
 alias train='poetry run python /home/steve/NMRcraft/scripts/training/train_metal.py'
 alias help='cat ../Archpy_dots/user_docs'
-
+ps
 clear 
 # Beauty stuff
 if [ $PWD = "/home/steve/NMRcraft" ]; then
