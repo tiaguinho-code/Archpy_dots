@@ -18,7 +18,7 @@ alias ps='poetry shell'
 
 # Production "commands"
 alias app='poetry run python /home/steve/NMRcraft/nmrcraft/app.py'
-alias train='poetry run python /home/steve/NMRcraft/scripts/training/train_metal.py'
+alias train='poetry run python /home/steve/NMRcraft/scripts/reproduce_results.py'
 alias help='cat ../Archpy_dots/user_docs'
 ps
 clear 
