@@ -2,7 +2,7 @@
 
 How to use NMRcraft:
 
-- to launch the graphic user interface in your browser, execute the command `app`
+- before you can actually run the script you have to login to huggingface by typing `huggingface_cli login` and follow the prompt from there
 - to run a training run, execute the command `train`
 
 =====================================================================
