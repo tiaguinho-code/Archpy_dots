@@ -2,7 +2,8 @@
 
 How to use NMRcraft:
 
-- before you can actually run the script you have to login to huggingface by typing `huggingface_cli login` and follow the prompt from there
+- If you already used Docker for other projects make sure you have enough free space in your Docker space.
+- before you can actually run the script you have to login to huggingface by typing `huggingface_cli login` and follow the prompt from there. You can type n when it asks for it to be saved as git credentials btw.
 - to run a training run, execute the command `train`
 
 =====================================================================
